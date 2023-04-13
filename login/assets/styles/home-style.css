@@ -1,0 +1,46 @@
+/**
+ * styling untuk halaman home
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+header {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+header span {
+  background-color: #212936;
+  border-radius: 10px;
+  color: white;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  padding: 32px;
+}
+
+main img {
+  display: block;
+  margin: 0 auto 16px auto;
+  width: 100%;
+  max-width: 376px;
+}
+
+main h1 {
+  text-align: center;
+}
